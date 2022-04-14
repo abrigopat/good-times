@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'hangry_handregular';
+  src: url("/.font/hangryhand-regular-webfont.woff2") format("woff2"), url("/.font/hangryhand-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'silk_flower_demoregular';
+  src: url("/.font/silkflowerdemo-regular-webfont.woff2") format("woff2"), url("/.font/silkflowerdemo-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hangry_handregular';
+  src: url("/.font/hangryhand-regular-webfont.woff2") format("woff2"), url("/.font/hangryhand-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'silk_flower_demoregular';
+  src: url("/.font/silkflowerdemo-regular-webfont.woff2") format("woff2"), url("/.font/silkflowerdemo-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.my-navbar {
+  padding-right: 3.5em;
+  background-color: transparent;
+}
+
+.my-navbar .logo {
+  width: 80px;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  margin-left: 55px;
+  justify-content: flex-start;
+}
+
+.my-navbar .navbar-nav {
+  font-family: "hangry_handregular";
+  font-size: 500;
+  font-weight: 300;
+  padding: 0 1rem 0 1rem;
+  font-size: 30px;
+}
+
+.my-navbar .navbar-nav .nav-item {
+  padding-left: .05em;
+}
+
+.my-navbar .navbar-nav .nav-item a {
+  color: #fff;
+  padding: 0 2.65rem 0 1rem;
+}
+
+.my-navbar .navbar-nav .nav-item:hover a {
+  color: #fb8200;
+}
+
+.my-navbar .navbar-nav #contact {
+  border: 0.15em solid #fb8200;
+  border-radius: 1em;
+  width: 4.85em;
+  height: 1.6em;
+  line-height: 100%;
+  text-align: center;
+  transition: all 0.25s ease-in;
+  justify-content: center;
+  font-family: "hangry_handregular";
+  font-size: 500;
+  font-weight: 300;
+  padding: 0 1rem 0 1rem;
+  margin-top: -.15em;
+  font-size: 30px;
+}
+
+.my-navbar .navbar-nav #contact a {
+  color: #fff;
+}
+
+.my-navbar .navbar-nav #contact:hover {
+  background-color: #fb8200;
+}
+
+.my-navbar .navbar-nav #contact:hover a {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .my-navbar {
+    background-color: #ffc5c4;
+  }
+  .my-navbar .navbar-nav .nav-item a {
+    color: #fff;
+    margin-left: 1em;
+  }
+  .my-navbar .navbar-nav .nav-item:hover a {
+    color: #fb8200;
+  }
+  .my-navbar .navbar-collapse {
+    text-align: center;
+    background-color: #ffc5c4;
+    width: 100vw;
+  }
+  #contact {
+    justify-content: center;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */
